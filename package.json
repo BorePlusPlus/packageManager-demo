@@ -1,0 +1,21 @@
+{
+  "name": "packagemanager-demo",
+  "version": "1.0.0",
+  "description": "Testing management of package manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "author": "BorePlusPlus",
+  "license": "MIT",
+  "engines": {
+    "node": "^18.13.0",
+    "pnpm": "^8.3.1"
+  },
+  "engineStrict": true,
+  "packageManager": "pnpm@8.3.1",
+  "dependencies": {
+    "lodash.kebabcase": "^4.1.1"
+  }
+}
