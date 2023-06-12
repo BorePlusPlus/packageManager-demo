@@ -1,6 +1,21 @@
 ---
 author: "@BorePlusPlus"
 test_array: [1, 2, 3]
+name: campaign
+type: dashboard
+maturity: medium
+url: https://app.powerbi.com/groups/me/apps/68d7bf35-7261-4235-885b-e65ffsdfds71e777/reports/648628a8-4fd1b-4eb7-8310-69a1d9159977/ReportSection
+description: "{{ doc('campaign') }}"
+
+depends_on:
+      - ref('fact_campaign_summary')
+      - ref('fact_campaign_daily')
+      - ref('dim_date')
+      - ref('dim_subsidiary')
+
+owner:
+      name: Foo Bar
+      email: foo.bar@example.com
 ---
 # Package Manger Managment Demo
 
