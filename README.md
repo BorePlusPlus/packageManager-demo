@@ -1,3 +1,7 @@
+---
+author: @BorePlusPlus
+test_array: [1, 2, 3]
+---
 # Package Manger Managment Demo
 
 A demo repository for a project with pinned down specific package manager utilising [corepack](https://nodejs.org/docs/latest-v18.x/api/corepack.html) to provision the package manager if missing.
