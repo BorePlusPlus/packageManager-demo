@@ -1,5 +1,5 @@
 ---
-author: @BorePlusPlus
+author: "@BorePlusPlus"
 test_array: [1, 2, 3]
 ---
 # Package Manger Managment Demo
